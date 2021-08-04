@@ -1,31 +1,17 @@
 import React from "react";
-import StudentClass from "./StudentClass";
+import Body from "./Body";
+import Navbar from "./Navbar";
+import Sidebar from "./Sidebar";
 
-
-
-
-
-
- var students=[
-    
-     { id: 1, name:' Elnazar', status:' o`qchi'},
-      {id: 2, name:' Botr', status:' piyozchi'},
-      {id: 3, name: 'Fayzullo', status:' kartoshkachi'},
-      {id: 4, name: ' Rustam', status:' ishchi'},
-      {id: 5, name:' Vali', status:' Studaet'},
-      {id: 6, name:' Abdurashit', status:'  traktorchi'},
-      {id: 7, name:' Jamshud', status:' Stilist'},
-      {id: 8, name:' Chapa', status:' mol boqar'},
-      {id: 9, name:' Jumabek', status:' Uyquchi'},
-      {id: 10, name:' Ketmonbek', status:' hayduvchi'},
-    
-  ]
-  
 class App extends React.Component{
   render(){
     return(
       <div className="container">
-       <StudentClass data={students}/>
+        <Sidebar />
+        <div className="main">
+          <Navbar />
+          <Body/>
+        </div>
       </div>
     )
     }
