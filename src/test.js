@@ -1,12 +1,18 @@
 import React from 'react'
-import './stayl.css'
-class Test extends React.Component{
-    render(){
-        return(
-            <div>
-               Duble 
-            </div>
-        )
-    }
+//  import './Stayl.css'
+// class Test extends React.Component{
+//     render(){
+//         return(
+//             <div>
+//                Duble 
+//             </div>
+//         )
+//     }
+// }
+// export default Test
+function Test(name, id){
+console.log(name,id);
 }
-export default Test
+Test('Azim',21)
+Test('Azim',21)
+Test('Azim',21)

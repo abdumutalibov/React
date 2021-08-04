@@ -1,8 +1,8 @@
-
 body{
+    margin-top: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: cyan
+    /* background-color: rgb(75, 120, 128); */
     
 }
