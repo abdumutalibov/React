@@ -1,5 +1,133 @@
+
 .main{
     width: 240px;
 height: 990px;
-background: red;
+
+background: #FBFCFF;
 }
+.ras{
+    /* display: flex; */
+   align-items: center;
+   justify-content: center;
+
+}
+.rasim{
+   position: absolute;
+    margin-left: 40px;
+    margin-top: 30px;
+   
+}
+.iffee{
+    position: relative;
+    margin-left:75px ;
+   
+    padding-top: 30px;
+    padding-bottom: 70px;
+font-family: Product Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 24px
+}
+.Men{
+  
+  
+    margin-left: 39px;
+    width: 141.03px; 
+height: 344.48px;
+left: 43.32px;
+top: 147.6px;
+
+margin-bottom: 100px;
+}
+.menu{
+    
+font-family: Product Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+}
+nav>ul{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    left: 0px;
+    /* right: 200px; */
+  }
+  nav>ul>li{
+    list-style: none;
+    /* float: left; */
+     padding-bottom:  20px;
+    
+  }
+  nav>ul>li>a{
+      /* position: relative; */
+      /* padding-bottom: 50px; */
+    text-decoration: none;
+  padding-left: 40px;
+    color: #fff;
+    
+
+    font-family: Product Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    
+    color: #838383;
+  }
+  .sche{
+    margin-left: 39px;
+    width: 116.86px;
+    height: 171.87px;
+    left: 47.35px;
+    top: 599.51px;
+ 
+  }
+  .h4{
+    font-family: Product Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    
+    color: #3629B7;
+  }
+  
+  .ell{
+    width: 184.35px;
+    height: 70.69px;
+    /* left: 30.22px;
+    top: 887.64px; */
+    margin-top: 90px;
+    margin-left: 25px;
+    display: flex;
+    justify-content: center;
+    
+    background: #F9FAFF;
+    border-radius: 5px;
+  }
+  .ell1{
+      /* position: absolute; */
+     /* display: flex;
+     justify-content: center;
+     align-items: center; */
+  }
+  .kill{
+      /* display: flex; */
+/* justify-content: center; */
+      position: absolute;
+      padding-top: 12px;
+      /* padding-right: 40px; */
+      /* margin-right: 300px; */
+
+  }
+  .nex{
+      padding-left: 20px;
+      position: relative;
+      left: 79px;
+      bottom: 15px;
+  }

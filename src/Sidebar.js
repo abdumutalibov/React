@@ -2,7 +2,16 @@ import React from 'react';
 import './Sidebar.css'
 import logo  from './img/Union.png'
 import log  from './img/Group 2.png'
-
+import calcul from './img/calculator.png'
+import uni  from './img/Uni.png'
+import cat  from './img/cat.png'
+import gro  from './img/gro.png'
+import set  from './img/set.png'
+import ell from './img/ell.png'
+import kok from './img/kok.png'
+import sar from './img/sar.png'
+import qiz from './img/qiz.png'
+import nex from './img/nex.png'
 class Sidebar extends React.Component {
     constructor(props) {
         super(props);
@@ -11,25 +20,58 @@ class Sidebar extends React.Component {
 
     render() {
         return (
-            <div>
-            <img src={log}/>     
 
-            <img src={logo}/>     
-                
+
+            <div className='container1'>
+           
+
+            {/* <img className='rasim1' src={logo}/>     
+            <img className='rasim1' src={logo}/>     
+                 */}
                 <div className='main'>
-                 <h1>Menu</h1>
-                 <ul>
-                     <li>
-                         <li>Home</li>
-                         <li>Garage</li>
-                         <li>Serice Menu</li>
-                         <li>Races</li>
-                         <li></li>
-                         <li></li>
-                         <li></li>
-                     </li>
-                 </ul>
+<div className='ras'> 
+
+    <img className='rasim' src= {log} ></img><div className ='iffee'> iffee</div>
+</div>
+
+
+           <div className='Men'>
+                 <h4 className='menu'>Menu </h4>
+
+                 <nav>
+        <ul>
+          <li ><img src={logo}></img><a href="">Home</a></li>
+
+          <li ><img src={cat}></img><a href="">Garage</a></li>
+          <li><img src={uni}></img><a href="">Service Menu</a></li>
+          <li><img src={gro}></img><a href="">Racers</a></li>
+          <li><img src={calcul}></img><a href="">Calculator</a></li>
+          <li><img src={set}></img><a href="">Settings</a></li>
+          
+          
+        </ul>
+      </nav> 
+                 </div>
+                 <div className='sche'><h4 className='h4'>Scheduled Reces</h4>
+                 <nav>
+                     <ul>
+                     <li><img src={sar}></img><a href=''>MotoGP 2022</a></li> <li><img src={qiz}></img><a href=''>Dynamic</a></li> <li><img src={kok}></img><a href=''>Olympics</a></li>
+                     </ul>
+                 </nav>
+
+                 </div>
+                 <div className='ell'>
+                     <nav>
+                         <ul>
+                             {/* <li ><img className='ell1' src={ell}></img><a className='kill'  href=''>Killua</a><img src={nex}></img></li> */}
+
+
+                             <li><img src={ell}></img><a className='kill' href=''>Killua</a><img className='nex' src={nex}></img></li>
+                             </ul>
+                             </nav>
+                              </div>
                 </div>
+                
             </div>
         );
     }
