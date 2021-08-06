@@ -1,4 +1,5 @@
 import React from 'react';
+
 import './Sidebar.css'
 import logo  from './img/Union.png'
 import log  from './img/Group 2.png'
@@ -12,6 +13,9 @@ import kok from './img/kok.png'
 import sar from './img/sar.png'
 import qiz from './img/qiz.png'
 import nex from './img/nex.png'
+import Navbar from './Navbar';
+import Body from './Body';
+
 class Sidebar extends React.Component {
     constructor(props) {
         super(props);
@@ -24,7 +28,6 @@ class Sidebar extends React.Component {
 
             <div className='container1'>
            
-
             {/* <img className='rasim1' src={logo}/>     
             <img className='rasim1' src={logo}/>     
                  */}
@@ -71,7 +74,9 @@ class Sidebar extends React.Component {
                              </nav>
                               </div>
                 </div>
-                
+              
+                <div><Navbar/></div>
+{/* <div><Body/></div> */}
             </div>
         );
     }

@@ -1,4 +1,6 @@
-
+.container1{
+    display: flex;
+}
 .main{
     width: 240px;
 height: 990px;

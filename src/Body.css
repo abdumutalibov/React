@@ -1,0 +1,130 @@
+.Body{
+    /* display: flex; */
+}
+
+.body1{
+    display: flex;
+   /* background-color: darkgray; */
+    width: 1208px;
+    height: 73px;
+    left: 233px;
+    top: 28px;
+    margin-bottom: 40px;
+}
+.body2{
+    /* position: absolute; */
+    width: 520.45px;
+height: 48.67px;
+/* marleft: 278.3px;
+top: 28px; */
+margin-top: 13px ;
+margin-left: 18px;
+background: #FFFFFF;
+border: 1px solid #E7E7E7;
+box-sizing: border-box;
+border-radius: 5px;
+}
+.lupa{
+    margin-top: 13px;
+    margin-left: 20px;
+}
+.h6{
+
+position: relative;
+  top: -40px;
+  right: 100px;
+  font-family: Google Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+text-align: center;
+
+color: #000000;
+opacity: 0.4;
+}
+.body3{
+    width: 312.07px;
+height: 48.67px;
+margin-top: 13px ;
+margin-left: 25px;
+background: #FFFFFF;
+border: 1px solid #E7E7E7;
+box-sizing: border-box;
+border-radius: 5px;
+
+}
+.str{
+    position: relative;
+/* margin-bottom: 500px ;
+margin-left: 250px; */
+left: 220px;
+bottom:40px
+
+
+
+}
+.hh{
+    margin-top: 13px ;
+margin-left: 25px;
+
+font-family: Google Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+text-align: center;
+
+color: #000000;
+
+opacity: 0.4;
+}
+.icon{
+    margin-top: 13px ;
+margin-left: 95px;
+}
+.body5{
+    display: flex;
+    /* width: 970px; */
+height: 102px;
+margin-left: 95px;
+top: 144px;
+/* background-color: rgb(207, 191, 191); */
+}
+.body6{
+
+    display: flex;
+    width: 100px;
+height: 102px;
+/* left: 357px; */
+top: 144px;
+/* padding-right: 50px; */
+margin-right: 76px;
+/* cards bg */
+
+background: #FEFEFF;
+box-shadow: 0px 100px 80px rgba(41, 72, 152, 0.05), 0px 64.8148px 46.8519px rgba(41, 72, 152, 0.037963), 0px 38.5185px 25.4815px rgba(41, 72, 152, 0.0303704), 0px 20px 13px rgba(41, 72, 152, 0.025), 0px 8.14815px 6.51852px rgba(41, 72, 152, 0.0196296), 0px 1.85185px 3.14815px rgba(41, 72, 152, 0.012037);
+border-radius: 10px;
+}
+.word{
+/* flex-direction: ; */
+display: flex;
+justify-content: center;
+font-family: Google Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+text-align: center;
+margin-top: 10px;
+color: #BCBDC2;
+margin-left: 30px;
+}
+.go1{
+/*     
+    font-size: 50px;
+    width: 40px;
+    height: 40px;*/
+    margin-left: 40px;
+    margin-top: 20px; 
+}

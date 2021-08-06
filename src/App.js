@@ -6,11 +6,13 @@ import Sidebar from "./Sidebar";
 class App extends React.Component{
   render(){
     return(
-      <div className="container">
-        <Sidebar />
+      <div className="con">
+        <Sidebar className='con1' />
+         
+         
         <div className="main">
-          <Navbar />
-          <Body/>
+         {/* <Navbar />
+          <Body/> */}
         </div>
       </div>
     )
